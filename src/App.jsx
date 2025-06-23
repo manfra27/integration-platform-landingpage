@@ -1,34 +1,19 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    <div class="layout">
+
+      <p class="title">An integration platform for local scalable series 3D printing.</p>
+      <p class="text">This application is a mockup version intended solely for testing purposes. No accountability is assumed for any actions or outcomes resulting from its use. Only sample data should be entered, which may be publicly visible. Use is strictly limited to authorized test participants. All data exists only during runtime and will be permanently lost upon closure. No data is stored or persisted.</p>
+      <p class="text">For inquiries contact: manuelfranzini@hotmail.ch</p>
+      <a href="https://github.com/manfra27/integration-platform.git" class="primary-button">
+        Visit the GitHub repository to download the integration platform
+      </a>
+
+    </div>
   )
 }
 
